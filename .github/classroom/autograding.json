@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac Searching.java",
+      "run": "java Searching",
+      "input": "10\r\n3\r\n7\r\n2\r\n17\r\n30\r\n24\r\n85\r\n44\r\n19\r\n1\r\n19",
+      "output": "8 9\r\n5 6\r\n5 3",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
