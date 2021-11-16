@@ -1,6 +1,6 @@
 # Searching
 
-### No Googling for this assignment because I want you to write the algorithms, not copy and paste them
+### No Googling the linear search algorithm or the binary search algorithm
 
 - Create a program called `Searching.java`
 - Create a function that implements the linear search algorithm
