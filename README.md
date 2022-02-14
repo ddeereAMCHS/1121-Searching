@@ -6,26 +6,25 @@
 - Create a function that implements the linear search algorithm
   - This function should take an array of ints and a target int value
   - This function should return the index of the target value or -1 if the value is not in the array
-  - This function should also return the number of comparisons made to find the target value
-    - Think through how you would return two different things
 - Create a function that implements the binary search algorithm
-  - This function should take an array of ints and a target int value
+  - This function should take a sorted array of ints and a target int value
   - This function should return the index of the target value or -1 if the value is not in the array
-  - This function should also return the number of comparisons made to find the target value
-    - Think through how you would return two different things
 - In the main method: 
-  - Prompt the user for a number
-    - This will be the number of elements the user enters
-  - Prompt the user for that many numbers and store them in an array
+  - Prompt the user for a filename
+  - The first line in the file will be how many numbers are in the rest of the file
+  - Read in all the numbers and store them in an array
   - Prompt the user for a target value to search for
   - Call the linear search function with the array and target value
   - Sort the array and call the linear search function again
   - Call the binary search function with the array and target value
-  - Print the index of the target value and the number of comparisons made from calling the unsorted linear search function
-  - Print the index of the target value and the number of comparisons made from calling the sorted linear search function
-  - Print the index of the target value and the number of comparisons made from calling the binary search function
+  - Print the index of the target value made from calling the linear search function on the unsorted array
+  - Print the index of the target value made from calling the linear search function on the sorted array
+  - Print the index of the target value made from calling the binary search function
 
-Example Input:\
+***Example Input:***\
+input1.txt
+19\
+***Example Contents of input1.txt:***\
 10\
 3\
 7\
@@ -37,8 +36,16 @@ Example Input:\
 44\
 19\
 1\
-19\
-Example Output:\
-8 9\
-5 6\
-5 3
+***Example Output:***\
+Linear search (unsorted): 8\
+Linear search (sorted): 5\
+Binary search: 5\
+
+- - - - - - - - - - - - 
+
+## Extra Credit
+
+- For your linear search function, make it so that it also returns the number of comparisons made to find the target value
+    - Think through how you would return two different values
+- For your binary search function, make it so that it also returns the number of comparisons made to find the target value
+    - Think through how you would return two different values
