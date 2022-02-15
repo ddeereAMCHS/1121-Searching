@@ -4,9 +4,9 @@
       "name": "Test 1",
       "setup": "javac Searching.java",
       "run": "java Searching",
-      "input": "10\r\n3\r\n7\r\n2\r\n17\r\n30\r\n24\r\n85\r\n44\r\n19\r\n1\r\n19",
-      "output": "8 9\r\n5 6\r\n5 3",
-      "comparison": "included",
+      "input": "input1.txt\n19",
+      "output": "Linear search \\(unsorted\\): 8( 9)?\nLinear search \\(sorted\\): 5( 6)?\nBinary search: 5( 3)?$",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -14,9 +14,9 @@
       "name": "Test 2",
       "setup": "javac Searching.java",
       "run": "java Searching",
-      "input": "10\r\n3\r\n7\r\n2\r\n17\r\n30\r\n24\r\n85\r\n44\r\n19\r\n1\r\n18",
-      "output": "-1 10\r\n-1 10\r\n-1 3",
-      "comparison": "included",
+      "input": "input1.txt\n18",
+      "output": "Linear search \\(unsorted\\): -1( 10)?\nLinear search \\(sorted\\): -1( 10)?\nBinary search: -1( 3)?$",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     },
@@ -24,9 +24,9 @@
       "name": "Test 3",
       "setup": "javac Searching.java",
       "run": "java Searching",
-      "input": "10\r\n3\r\n7\r\n2\r\n17\r\n30\r\n24\r\n85\r\n44\r\n19\r\n1\r\n85",
-      "output": "6 7\r\n9 10\r\n9 4",
-      "comparison": "included",
+      "input": "input1.txt\n85",
+      "output": "Linear search \\(unsorted\\): 6( 7)?\nLinear search \\(sorted\\): 9( 10)?\nBinary search: 9( 4)?$",
+      "comparison": "regex",
       "timeout": 10,
       "points": null
     }
