@@ -22,7 +22,7 @@
   - Print the index of the target value made from calling the binary search function
 
 ***Example Input:***\
-input1.txt
+input1.txt\
 19\
 ***Example Contents of input1.txt:***\
 10\
