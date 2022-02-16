@@ -39,7 +39,7 @@ input1.txt\
 ***Example Output:***\
 Linear search (unsorted): 8\
 Linear search (sorted): 5\
-Binary search: 5\
+Binary search: 5
 
 - - - - - - - - - - - - 
 
