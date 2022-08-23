@@ -1,5 +1,7 @@
 # Searching
 
+## Due: DoW MM/DD at 11:59 PM
+
 ### No Googling the linear search algorithm or the binary search algorithm
 
 - Create a program called `Searching.java`
