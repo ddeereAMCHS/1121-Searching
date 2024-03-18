@@ -1,6 +1,6 @@
 # Searching
 
-## Due: Thur 3/23 at 11:59 PM
+## Due: Thur 3/21 at 11:59 PM
 
 ### No Googling the linear search algorithm or the binary search algorithm
 
